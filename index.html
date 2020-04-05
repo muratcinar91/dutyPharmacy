@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nöbetçi Eczaneler</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <app-header></app-header>
+    <div id="app">
+        <div id="inputs">
+        <input
+          id="city"
+          type="text"
+          autofocus
+          placeholder="Şehir"
+          class="search_text"
+        />
+        <input
+          id="county"
+          type="text"
+          autofocus
+          placeholder="İlçe"
+          class="search_text"
+        />
+        <i class="button" type="button">ARA</i>
+        </div>
+        
+        <!-- <div id="pharmacies"></div> -->
+        <div id="pharmacies"></div>
+      </div>
+
+    
+    <script src="components/appHeader/appHeader.js"></script>
+    <script src="components/pharmacy/pharmacy.js"></script>
+    <script src="assets//js/app.js"></script>
+</body>
+</html>
